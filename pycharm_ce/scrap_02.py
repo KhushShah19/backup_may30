@@ -39,7 +39,7 @@ data = pd.DataFrame({"Function name": function_names, "Function usage": function
 
 #print(data)
 
-data.to_csv('classmate')
+# data.to_csv('classmate')
 
 print('Done ')
 
