@@ -16,7 +16,7 @@ if pokenew == 10:
         print(poke) 
         print(poke.head(10)) # shows top 10 
         print(poke.tail(10)) # shows bottom 10
-        print(poke.columns) # shows index 
+        print(poke.columns) # shows index (name of all the columns -- IMP)
         print(poke["Speed"][33:44]) # show specific thing and range of it 
         print(poke[["Name", "Speed", "Attack", "Defense"]]) # to read coloums
         print(poke.iloc[33:44]) # to read rows
